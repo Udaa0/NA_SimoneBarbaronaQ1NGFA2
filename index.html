@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    #Navbar{
+        border: 1px solid black;
+        margin: 5px;
+        padding: 15px;
+        text-align: center;
+        background-color: rgb(255, 254, 240);
+    }
+    #links{
+        display: inline;
+    }
+    #Navbar #links a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid black;
+        opacity: .70;
+        transition: 0.4s;
+    }
+    #Navbar #links a:hover{ opacity: 1; transition: 0.4s;}
+    #YT{background-color: red; color: white;}
+    #FB{background-color: rgb(51, 93, 184); color: white;}
+    #DC{background-color: rgb(116, 87, 206); color: white;}
+    #RDT{background-color: rgb(255, 83, 20); color: white;}
+    #X{background-color: black; color: white;}
+    .rounded{ border-radius: 5px; }
+
+</style>
+</head>
+<body>
+    <div id="Navbar" class="rounded">
+        <div id="links"><a href="https://youtube.com" id="YT">YouTube</a></div>
+        <div id="links"><a href="https://facebook.com" id="FB">Facebook</a></div>
+        <div id="links"><a href="https://discord.com" id="DC">Discord</a></div>
+        <div id="links"><a href="https://reddit.com" id="RDT">Reddit</a></div>
+        <div id="links"><a href="https://twitter.com" id="X">Twitter</a></div>
+    </div>
+</body>
+</html>
