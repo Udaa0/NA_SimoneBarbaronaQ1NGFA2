@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -42,11 +36,10 @@
     background-repeat: no-repeat;
     background-image: url(Coffeee.jpg);
     width: 1000px;
-    height: 1000px;
+    height: 400px;
 }
 .banner h1{
     color: #7f5e3b;
-    text-shadow: 1px 1px black;
     font-family: 'Young Serif', serif;
 }
 .banner h1 span{
@@ -59,27 +52,8 @@
 .banner a{
     padding: 10px;
     text-decoration: none;
-    background-color: #A5845F; 
+    background-color: #A5845F;
     font-family: 'Roboto', sans-serif;
     text-transform: none;
     color: black
 }
-</style>
-</head>
-<body>
-    <div id="Navbar" class="rounded">
-        <div id="links"><a href="https://youtube.com" id="YT">YouTube</a></div>
-        <div id="links"><a href="https://facebook.com" id="FB">Facebook</a></div>
-        <div id="links"><a href="https://discord.com" id="DC">Discord</a></div>
-        <div id="links"><a href="https://reddit.com" id="RDT">Reddit</a></div>
-        <div id="links"><a href="https://twitter.com" id="X">Twitter</a></div>
-    </div>
-    <div class="banner">
-        <h1>Welcome to Coffee Express.</h1>
-        <p>Feel the taste and aroma of different coffee blends 
-            that you are surely to enjoy until the rest of your life. 
-            Come try it now.</p>
-        <a href=""> TRY IT NOW. </a>
-</div>
-</body>
-</html>
